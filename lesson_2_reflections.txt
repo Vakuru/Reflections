@@ -8,3 +8,45 @@ versions of the file.
 
 The staging area allows you to check your work before 
 committing to it. Its a go between for the two.
+
+>>How can you use the staging area to make sure you have one commit per logical change?
+
+By looking at the number of files your are about to 
+commit.
+
+>>What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to add new features that are mutually 
+exclusive. When I want to experiment with completely
+different concepts and would like to keep track of 
+each of them.
+
+>>How do the diagrams help you visualize the branch structure?
+
+By showing which commits are connected to each other, 
+and which aren't.
+
+>>What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The two branches become one. I still have access to 
+commits from both branches. They are sorted based on
+timestamps. Its represented that way to show that they 
+become one branch instead of two.
+
+>>What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic Merging
+Pros:
+- Saves time
+- More accurate, less human error
+
+Cons:
+- Not capable of handling some scenarios correctly 
+
+Manually
+Pros:
+- You can handle complex situations
+
+Cons:
+- Potential for human error
+- Lengthy and tidious
